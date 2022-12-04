@@ -1,0 +1,61 @@
+{
+  "pluginId": "default",
+  "version": "current",
+  "label": "Next",
+  "banner": null,
+  "badge": false,
+  "noIndex": false,
+  "className": "docs-version-current",
+  "isLast": true,
+  "docsSidebars": {
+    "tutorialSidebar": [
+      {
+        "type": "link",
+        "label": "Open MPI General",
+        "href": "/docs/intro",
+        "docId": "intro"
+      },
+      {
+        "type": "category",
+        "label": "Errors",
+        "collapsible": true,
+        "collapsed": true,
+        "items": [
+          {
+            "type": "link",
+            "label": "Errors API",
+            "href": "/docs/errors/general-errors",
+            "docId": "errors/general-errors"
+          },
+          {
+            "type": "link",
+            "label": "Error Examples",
+            "href": "/docs/errors/error-examples",
+            "docId": "errors/error-examples"
+          }
+        ],
+        "href": "/docs/category/errors"
+      }
+    ]
+  },
+  "docs": {
+    "errors/error-examples": {
+      "id": "errors/error-examples",
+      "title": "Error Examples",
+      "description": "Provide examples of using Errors classes",
+      "sidebar": "tutorialSidebar"
+    },
+    "errors/general-errors": {
+      "id": "errors/general-errors",
+      "title": "Errors API",
+      "description": "Standard error return classes for Open MPI",
+      "sidebar": "tutorialSidebar"
+    },
+    "intro": {
+      "id": "intro",
+      "title": "Open MPI General",
+      "description": "The Open MPI Project is an open source Message Passing Interface implementation that is developed and maintained by a consortium of academic, research, and industry partners. Open MPI is therefore able to combine the expertise, technologies, and resources from all across the High Performance Computing community in order to build the best MPI library available. Open MPI offers advantages for system and software vendors, application developers and computer science researchers.",
+      "sidebar": "tutorialSidebar"
+    }
+  }
+}

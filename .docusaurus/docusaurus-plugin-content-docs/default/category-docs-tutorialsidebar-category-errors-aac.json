@@ -1,0 +1,15 @@
+{
+  "title": "Errors",
+  "slug": "/category/errors",
+  "permalink": "/docs/category/errors",
+  "navigation": {
+    "previous": {
+      "title": "Open MPI General",
+      "permalink": "/docs/intro"
+    },
+    "next": {
+      "title": "Errors API",
+      "permalink": "/docs/errors/general-errors"
+    }
+  }
+}

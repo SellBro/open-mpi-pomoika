@@ -1,0 +1,23 @@
+{
+  "unversionedId": "errors/error-examples",
+  "id": "errors/error-examples",
+  "title": "Error Examples",
+  "description": "Provide examples of using Errors classes",
+  "source": "@site/docs/errors/error-examples.md",
+  "sourceDirName": "errors",
+  "slug": "/errors/error-examples",
+  "permalink": "/docs/errors/error-examples",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/errors/error-examples.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Errors API",
+    "permalink": "/docs/errors/general-errors"
+  }
+}
